@@ -1,6 +1,10 @@
 package puppy
 
-import dogwoof "github.com/OrkhanNajaf1i/go-mod-learn/dog_woof"
+import (
+	"fmt"
+
+	dogwoof "github.com/OrkhanNajaf1i/go-mod-learn/dog_woof"
+)
 
 func Bark() string {
 	return "Bark"
@@ -11,6 +15,6 @@ func Barks() string {
 }
 
 func BigName() {
-	dogwoof.WhenDogGrow(Bark())
-	dogwoof.WhenDogGrow(Barks())
-}
+	fmt.Println(dogwoof.WhenDogGrow(Bark()))
+	fmt.Println(dogwoof.WhenDogGrow(Barks()))
+	}
