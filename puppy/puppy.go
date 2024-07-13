@@ -17,4 +17,7 @@ func Barks() string {
 func BigName() {
 	fmt.Println(dogwoof.WhenDogGrow(Bark()))
 	fmt.Println(dogwoof.WhenDogGrow(Barks()))
-	}
+}
+func Changes()  {
+	fmt.Println("tags and version v1.0.0")
+}
