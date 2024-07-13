@@ -21,3 +21,7 @@ func BigName() {
 func Changes()  {
 	fmt.Println("tags and version v1.0.0")
 }
+
+func ChangesV2()  {
+	fmt.Println("tags and version v2.0.0")
+}
